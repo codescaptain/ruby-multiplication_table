@@ -1,0 +1,1 @@
+# ruby-multiplication_table
