@@ -1,1 +1,1 @@
-# ruby-multiplication_table
+# ruby-multiplication_table Project
