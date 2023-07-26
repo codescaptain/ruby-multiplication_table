@@ -25,6 +25,18 @@ def first_prime_numbers(param)
   prime_numbers
 end
 
+def multiplication_table(param)
+  prime_numbers = first_prime_numbers(param)
+  print "\t"
+  prime_numbers.each { |prime_number| print "#{prime_number}\t" }
+  puts
+  prime_numbers.each do |row_number|
+    print "#{row_number}\t"
+    prime_numbers.each { |column_number| print "#{column_number * row_number}\t" }
+    puts
+  end
+end
+
 number = ARGV[0].to_i
 
-first_prime_numbers(number)
+multiplication_table(number)
