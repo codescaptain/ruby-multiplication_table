@@ -1,5 +1,7 @@
 # Gemfile
 source 'https://rubygems.org'
 
-gem 'rspec'
-gem 'byebug'
+group :test, :development do
+  gem 'rspec'
+  gem 'byebug'
+end
